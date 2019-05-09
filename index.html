@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Homework Ru Xu</title>
+</head>
+
+<body>
+<!-- 1. mounting point -->
+  <header></header>
+
+<!-- 2. link internal tag file from project folder -->
+  <script type="riot/tag" src="./tags/header.tag"></script>
+
+<!--3. link external riot compiler library  -->
+<script src="https://cdn.jsdelivr.net/npm/riot@3.13/riot+compiler.min.js"></script>
+
+<!--4. initializing mounting process  -->
+  <script>
+    riot.mount("*");
+  </script>
+
+
+</body>
+
+</html>
